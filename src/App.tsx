@@ -23,11 +23,11 @@ function App() {
     if ( localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
       setTheme('dark');
       localStorage.setItem('color-theme', 'dark');
-      document.body.style.backgroundImage = "url('/src/assets/images/bg-dark.jpg')";
+      document.body.style.backgroundImage = "url('/assets/images/bg-dark.jpg')";
     } else {
       setTheme('light');
       localStorage.setItem('color-theme', 'light');
-      document.body.style.backgroundImage = "url('/src/assets/images/bg-light.jpg')";
+      document.body.style.backgroundImage = "url('/assets/images/bg-light.jpg')";
     }
   }, []);
 
@@ -36,7 +36,7 @@ function App() {
     setTheme(newTheme);
     localStorage.setItem('color-theme', newTheme);
 
-    document.body.style.backgroundImage = theme == "light" ? "url('/src/assets/images/bg-dark.jpg')" : "url('/src/assets/images/bg-light.jpg')";
+    document.body.style.backgroundImage = theme == "light" ? "url('/assets/images/bg-dark.jpg')" : "url('/assets/images/bg-light.jpg')";
   }
 
   const setContactInputData = function(value:any, inputType:string) {
@@ -368,7 +368,7 @@ function App() {
                             <div className="slick-track" >
                               <div className="p-4">
                                 <span className="flex">
-                                  <img className="overflow-hidden px-2" alt="brand" src="/src/assets/images/ed-logo.png" width="20%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <img className="overflow-hidden px-2" alt="brand" src="/assets/images/ed-logo.png" width="20%" decoding="async" data-nimg="1" loading="lazy" />
                                   <span className="flex items-center justify-center text-xl font-semibold">
                                     Edmingle
                                   </span>
@@ -380,7 +380,7 @@ function App() {
                               </div>
                               <div className="p-4">
                                 <span className="flex">
-                                  <img className="overflow-hidden px-2" alt="brand" src="/src/assets/images/kl-logo.png" width="10%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <img className="overflow-hidden px-2" alt="brand" src="/assets/images/kl-logo.png" width="10%" decoding="async" data-nimg="1" loading="lazy" />
                                   <span className="flex items-center justify-center text-xl font-semibold">
                                     Klassroom
                                   </span>
