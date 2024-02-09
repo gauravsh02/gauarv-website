@@ -255,7 +255,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                    <a href="/images/cv.pdf" download="" className="inline-flex items-center mx-auto bg-[#1e90ff] duration-200 transition ease-linear hover:bg-[#1e90ff] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
+                    {/* <a href="/images/cv.pdf" download="" className="inline-flex items-center mx-auto bg-[#1e90ff] duration-200 transition ease-linear hover:bg-[#1e90ff] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
                       <svg className='mx-2' style={{"fill": "none", "stroke": "#fff", "strokeLinecap": "round", "strokeLinejoin": "round", "strokeWidth":"2"}} fill="#000000" width="24px" height="24px" viewBox="0 0 24 24" id="download" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -264,7 +264,7 @@ function App() {
                         </g>
                       </svg>
                       Download CV
-                    </a>
+                    </a> */}
                 </div>
               </div>
             </div>
@@ -374,7 +374,7 @@ function App() {
                                   </span>
                                 </span>
                                 <div className="text-left p-2">
-                                  Edmingle is a SAS E-Learing platform, Working at Edmingle as senior software enfineer managing internal and external team, managin codebase and code review, developing robust and scalable software to meet requirements of software that server large number of users. 
+                                  Edmingle is a SAS E-Learing platform, Working at Edmingle as senior software engineer managing internal and external team, managin codebase and code review, developing robust and scalable software to meet requirements of software that server large number of users. 
                                   Also involved managing cloud infrastructure on AWS and Azure and help with CI / CD. Have significant experience with integrating of external product with the system and writing interanl tool and tools for data migrations.
                                 </div>
                               </div>
@@ -398,6 +398,62 @@ function App() {
                                     Check out my other projects on GitHub.
                                   </span>
                                 </a>
+                              </div>
+
+                              <div className="p-4">
+                                <a className="flex" href="https://cmd.gauravsh.net/" target="_blank">
+                                  <span className="flex p-2 items-center justify-center text-xl font-semibold">
+                                    Terminal Website
+                                  </span>
+                                </a>
+                                <div className="grid-container grid grid-cols-1 md:grid-cols-3 text-left p-2">
+                                  <img className="overflow-hidden px-2 col-span-1 md:col-span-1" alt="brand" src="/assets/images/tmweb.png" width="80%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <span className="col-span-1 md:col-span-2">
+                                    Terminal style portfolio website built with React, TypeScript and tailwind.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="p-4">
+                                <a className="flex" href="https://gol.gauravsh.net/" target="_blank">
+                                  <span className="flex p-2 items-center justify-center text-xl font-semibold">
+                                    Game of Life
+                                  </span>
+                                </a>
+                                <div className="grid-container grid grid-cols-1 md:grid-cols-3 text-left p-2">
+                                  <img className="overflow-hidden px-2 col-span-1 md:col-span-1" alt="brand" src="/assets/images/gol.png" width="80%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <span className="col-span-1 md:col-span-2">
+                                    Conway's Game of Life in React, JS Canvas and Web Worker.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="p-4">
+                                <a className="flex" href="https://ms-word-image-parser.vercel.app/" target="_blank">
+                                  <span className="flex p-2 items-center justify-center text-xl font-semibold">
+                                    Image Manipulation
+                                  </span>
+                                </a>
+                                <div className="grid-container grid grid-cols-1 md:grid-cols-3 text-left p-2">
+                                  <img className="overflow-hidden px-2 col-span-1 md:col-span-1" alt="brand" src="/assets/images/imageparser.png" width="80%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <span className="col-span-1 md:col-span-2">
+                                    Manipulate image to remove empty white space from MS Office web exports and output a single file with images without extra white space, using JS Canvas.
+                                  </span>
+                                </div>
+                              </div>
+
+                              <div className="p-4">
+                                <a className="flex" href="https://globe.gauravsh.net/" target="_blank">
+                                  <span className="flex p-2 items-center justify-center text-xl font-semibold">
+                                    3D Globe
+                                  </span>
+                                </a>
+                                <div className="grid-container grid grid-cols-1 md:grid-cols-3 text-left p-2">
+                                  <img className="overflow-hidden px-2 col-span-1 md:col-span-1" alt="brand" src="/assets/images/globe.png" width="80%" decoding="async" data-nimg="1" loading="lazy" />
+                                  <span className="col-span-1 md:col-span-2">
+                                    3D Globe render to display different data across the world.
+                                  </span>
+                                </div>
                               </div>
 
                             </div>
@@ -447,7 +503,7 @@ function App() {
 
                   <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-[#1d1d1d]">
                     <div className="container">
-                      <p className="text-center py-6 text-black dark:text-white">© 2023 All Rights Reserved by Gaurav Shankar. </p>
+                      <p className="text-center py-6 text-black dark:text-white">© 2023 All Rights Reserved by gauravsh.net. </p>
                     </div>
                   </footer>
                 </div>
