@@ -137,7 +137,7 @@ function App() {
         <div className='left hidden xl:block'>
             <ul className=''>
               <li className='left_SidebarItems'>
-                <a href='https://cmd.gauravsh.net' className='text-[#232323] hover:text-black dark:text-[#c7c7c7] dark:hover:text-white' target='_blank' rel='noreferrer'>
+                <a href='https://cmd.gauravshankar.com' className='text-[#232323] hover:text-black dark:text-[#c7c7c7] dark:hover:text-white' target='_blank' rel='noreferrer'>
                   <svg stroke="currentColor" fill="currentColor" className="sidebar_icon" strokeWidth="1.2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.25 12a.75.75 0 01-.22.53l-2.75 2.75a.75.75 0 01-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 111.06-1.06l2.75 2.75c.141.14.22.331.22.53zm2 2a.75.75 0 000 1.5h5a.75.75 0 000-1.5h-5z"/><path fillRule="evenodd" d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0122.25 21H1.75A1.75 1.75 0 010 19.25V4.75zm1.75-.25a.25.25 0 00-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V4.75a.25.25 0 00-.25-.25H1.75z"/>
                   </svg>
@@ -165,7 +165,7 @@ function App() {
           <div className="container w-full bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5 lg:px-0">
             <div className="w-full flex justify-between px-4">
               <a href="/">
-                <h1 className="text-black dark:text-white text-3xl">gauravsh.net</h1>
+                <h1 className="text-black dark:text-white text-3xl">gauravshankar.com</h1>
               </a>
             </div>
 
@@ -401,7 +401,7 @@ function App() {
                               </div>
 
                               <div className="p-4">
-                                <a className="flex" href="https://cmd.gauravsh.net/" target="_blank">
+                                <a className="flex" href="https://cmd.gauravshankar.com/" target="_blank">
                                   <span className="flex p-2 items-center justify-center text-xl font-semibold">
                                     Terminal Website
                                   </span>
@@ -415,7 +415,7 @@ function App() {
                               </div>
 
                               <div className="p-4">
-                                <a className="flex" href="https://gol.gauravsh.net/" target="_blank">
+                                <a className="flex" href="https://gol.gauravshankar.com/" target="_blank">
                                   <span className="flex p-2 items-center justify-center text-xl font-semibold">
                                     Game of Life
                                   </span>
@@ -443,7 +443,7 @@ function App() {
                               </div>
 
                               <div className="p-4">
-                                <a className="flex" href="https://globe.gauravsh.net/" target="_blank">
+                                <a className="flex" href="https://globe.gauravshankar.com/" target="_blank">
                                   <span className="flex p-2 items-center justify-center text-xl font-semibold">
                                     3D Globe
                                   </span>
@@ -503,7 +503,7 @@ function App() {
 
                   <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-[#1d1d1d]">
                     <div className="container">
-                      <p className="text-center py-6 text-black dark:text-white">© 2023 All Rights Reserved by gauravsh.net. </p>
+                      <p className="text-center py-6 text-black dark:text-white">© 2023 All Rights Reserved by gauravshankar.com </p>
                     </div>
                   </footer>
                 </div>
